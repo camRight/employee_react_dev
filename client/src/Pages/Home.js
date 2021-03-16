@@ -1,5 +1,5 @@
 import Button from "../Components/Button/Button";
-import DisplayTable from "../Components/Table/Table";
+import DisplayTable from "../Components/DisplayTable/DisplayTable";
 import React, { Component } from "react";
 import API from "../utils/API";
 
