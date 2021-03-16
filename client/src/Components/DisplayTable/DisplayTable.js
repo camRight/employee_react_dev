@@ -1,36 +1,46 @@
-import React from 'react';
-
+import React, {useState} from 'react';
+import {Button} from "react-bootstrap";
 const DisplayTable = (props) => {
+    // logic should be on pages
+    console.log(props.results)
+    // ternary for sort
+
+
+    
     return (
-        <table striped bordered hover>
+        <table className="table table-dark table-striped">
             <thead>
                 <tr>
-                    <th>#</th>
-                    <th>First Name</th>
+                    <th>Picture</th>
+                    <th>
+                    </th>
                     <th>Last Name</th>
-                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
                 </tr>
             </thead>
             <tbody>
-                {console.log(props.arr)}
+                {/* {console.log(props.arr)} */}
                 {/* use map here for the TR's */}
-                <tr>
-                    <td>1</td>
+                {props.results.length > 0 ? props.results.map(people => {
+                    return (
+                        <tr>
+                            <td><img src={people.picture.thumbnail}/></td>
+                            <td><p>{people.name.first}</p></td>
+                            <td><p>{people.name.last}</p></td>
+                            <td><p>{people.email}</p></td>
+                            <td><p>{people.phone}</p></td>
+                        </tr>
+                    )
+                }) : <tr>
                     <td>Mark</td>
                     <td>Otto</td>
                     <td>@mdo</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td colSpan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                </tr>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr> }
+               
+                 
             </tbody>
         </table>
     )
