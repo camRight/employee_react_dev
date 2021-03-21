@@ -5,6 +5,8 @@ import Button from "react-bootstrap/Button";
 import DisplayTable from "../Components/DisplayTable/DisplayTable";
 import React, { Component } from "react";
 import API from "../utils/API";
+import Jumbotron from "../Components/Jumbotron/Jumbotron";
+
 
 // es6 notation this is a state
 // passing to child
@@ -38,9 +40,12 @@ class Home extends Component {
         return (
             <>
                 <br></br>
-                <Button variant="success" size="large">
+
+                <Jumbotron />
+                {/* <Button variant="success" size="large">
                     ZYX Desc
-                </Button>
+                </Button> */}
+                
                 <DisplayTable results={this.state.results} />
             </>
         )

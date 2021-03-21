@@ -8,7 +8,7 @@ const DisplayTable = (props) => {
 
     
     return (
-        <table className="table table-dark table-striped">
+        <table className="table table-secondary table-striped">
             <thead>
                 <tr>
                     <th>Picture</th>
@@ -32,15 +32,8 @@ const DisplayTable = (props) => {
                             <td><p>{people.phone}</p></td>
                         </tr>
                     )
-                }) : <tr>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
-                    <td>@mdo</td>
+                }) : <tr>dada
                 </tr> }
-               
-                 
             </tbody>
         </table>
     )
