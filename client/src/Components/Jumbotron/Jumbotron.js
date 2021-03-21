@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import ""
+import React, { useState } from 'react';
+import "./Jumbotron.css";
 
 const Jumbotron = () => {
     return (
