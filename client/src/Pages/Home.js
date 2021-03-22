@@ -29,6 +29,12 @@ class Home extends Component {
         .catch(err => console.log(err))
     };
 
+    handleSort = () =>  {
+        const newResults = this.state.results.sort((a, b ) => {
+            return(a.name.first.localeCompare(b.name.first))
+        }) 
+        this.setState({results: newResults})
+    }
     // update input state
     handleInputChange = event => {
         this.setState({})
@@ -46,7 +52,7 @@ class Home extends Component {
                     ZYX Desc
                 </Button> */}
                 
-                <DisplayTable results={this.state.results} />
+                <DisplayTable handleSort={this.handleSort} results={this.state.results} />
             </>
         )
     }
