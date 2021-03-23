@@ -12,7 +12,7 @@ const DisplayTable = (props) => {
             <thead>
                 <tr>
                     <th>Picture</th>
-                    <th onClick={props.handleSort}><i className="<i class="fas fa-arrow-up></i>First Name</th>
+                    <th onClick={props.handleSort}><Button>&#x2191;</Button>First Name</th>
                     <th>Last Name</th>
                     <th>Email</th>
                     <th>Phone Number</th>
