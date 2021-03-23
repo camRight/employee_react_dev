@@ -1,6 +1,6 @@
 ## employee_react_dev
 
-This is a 
+This is an exercise designed to simulate an employee directory/table. Organizable database with seed data from an API. Data is pulled using Axios and set to a component. From there a dev can populate all data into the display.
 
 
 
