@@ -1,7 +1,20 @@
-## employee_react_dev
+# employee_react_dev
 
 This is an exercise designed to simulate an employee directory/table. Organizable database with seed data from an API. Data is pulled using Axios and set to a component. From there a dev can populate all data into the display.
 
+## Technologies
+
+- React
+- gh-pages
+- react-router-dom
+- axios
+- bootstrap
+
+## Links
+
+- Live Deployment: https://camright.github.io/employee_react_dev/
+
+- Repo Link: https://github.com/camRight/employee_react_dev/
 
 
 
@@ -25,54 +38,3 @@ This is an exercise designed to simulate an employee directory/table. Organizabl
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
